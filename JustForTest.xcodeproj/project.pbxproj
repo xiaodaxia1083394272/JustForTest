@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		924C27C91D5F7ADD00304FC9 /* MainFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 924C27C81D5F7ADD00304FC9 /* MainFile.m */; };
+		924C27D61D5F7DC300304FC9 /* ThingAndUse.m in Sources */ = {isa = PBXBuildFile; fileRef = 924C27D51D5F7DC300304FC9 /* ThingAndUse.m */; };
+		924C27DA1D5F7E1500304FC9 /* ThingAndUse.xib in Resources */ = {isa = PBXBuildFile; fileRef = 924C27D91D5F7E1500304FC9 /* ThingAndUse.xib */; };
 		E3E4C2F71CD063DA00190DB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E4C2F61CD063DA00190DB0 /* main.m */; };
 		E3E4C2FA1CD063DA00190DB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E4C2F91CD063DA00190DB0 /* AppDelegate.m */; };
 		E3E4C2FD1CD063DA00190DB0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E4C2FC1CD063DA00190DB0 /* ViewController.m */; };
@@ -16,6 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		924C27C71D5F7ADD00304FC9 /* MainFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainFile.h; sourceTree = "<group>"; };
+		924C27C81D5F7ADD00304FC9 /* MainFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainFile.m; sourceTree = "<group>"; };
+		924C27D41D5F7DC300304FC9 /* ThingAndUse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThingAndUse.h; sourceTree = "<group>"; };
+		924C27D51D5F7DC300304FC9 /* ThingAndUse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThingAndUse.m; sourceTree = "<group>"; };
+		924C27D91D5F7E1500304FC9 /* ThingAndUse.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThingAndUse.xib; sourceTree = "<group>"; };
 		E3E4C2F21CD063DA00190DB0 /* JustForTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JustForTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3E4C2F61CD063DA00190DB0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E3E4C2F81CD063DA00190DB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -63,6 +71,11 @@
 				E3E4C2FB1CD063DA00190DB0 /* ViewController.h */,
 				E3E4C2FC1CD063DA00190DB0 /* ViewController.m */,
 				E3E4C2FE1CD063DA00190DB0 /* Main.storyboard */,
+				924C27C71D5F7ADD00304FC9 /* MainFile.h */,
+				924C27C81D5F7ADD00304FC9 /* MainFile.m */,
+				924C27D41D5F7DC300304FC9 /* ThingAndUse.h */,
+				924C27D51D5F7DC300304FC9 /* ThingAndUse.m */,
+				924C27D91D5F7E1500304FC9 /* ThingAndUse.xib */,
 				E3E4C3011CD063DA00190DB0 /* Assets.xcassets */,
 				E3E4C3031CD063DA00190DB0 /* LaunchScreen.storyboard */,
 				E3E4C3061CD063DB00190DB0 /* Info.plist */,
@@ -139,6 +152,7 @@
 			files = (
 				E3E4C3051CD063DB00190DB0 /* LaunchScreen.storyboard in Resources */,
 				E3E4C3021CD063DA00190DB0 /* Assets.xcassets in Resources */,
+				924C27DA1D5F7E1500304FC9 /* ThingAndUse.xib in Resources */,
 				E3E4C3001CD063DA00190DB0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,6 +166,8 @@
 			files = (
 				E3E4C2FD1CD063DA00190DB0 /* ViewController.m in Sources */,
 				E3E4C2FA1CD063DA00190DB0 /* AppDelegate.m in Sources */,
+				924C27D61D5F7DC300304FC9 /* ThingAndUse.m in Sources */,
+				924C27C91D5F7ADD00304FC9 /* MainFile.m in Sources */,
 				E3E4C2F71CD063DA00190DB0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +315,7 @@
 				E3E4C30B1CD063DB00190DB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

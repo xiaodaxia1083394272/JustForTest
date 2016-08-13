@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "ThingAndUse.h"
 @interface ViewController ()
 
 @end
@@ -24,6 +24,13 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)clickThingAndUseButton:(id)sender {
+    
+    ThingAndUse * a = [ThingAndUse createView];
+    
+    [a show];
+    
 }
 
 @end
